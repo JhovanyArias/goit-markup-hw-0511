@@ -20,7 +20,7 @@
   </head>
   <body>
     <header>
-      <div class="container">
+      <div class="section-container">
       <nav>
         <ul class="section-nav">
           <a class="nav-link" href="#">WebStudio</a>
@@ -54,7 +54,7 @@
       </div>
     </header>
     <main>
-      <div class="container">
+      <div class="section-container">
       <section class="head_container">
         <div class="head-bg-container">
           <h1 class="main-tittle">
@@ -65,7 +65,11 @@
         </div>
       <div class="backdrop is-hidden" data-modal>
         <div class="modal">
-          <button class="btnclose" data-modal-close>X</button>
+          <button class="btnclose" data-modal-close>
+            <svg class="description-image" width="20px" height="20px">
+              <use href="./images/iicons.svg#icon-x"></use>
+            </svg>
+          </button>
         </div>
       </div>
       </section>
@@ -370,42 +374,42 @@
           <ul class="list-clients-container">
             <li class="clients">
               <a href="#" class="description-image link">
-                <svg class="description-icon" width="170px" height="81px">
+                <svg class="description-icon" width="170px" height="81px" fill="#afb1b8">
                   <use href="./images/iicons.svg#yaco"></use>
                 </svg>
               </a>
             </li>
             <li class="clients">
               <a href="#" class="description-image link">
-                <svg class="description-image-svg" width="170px" height="81px">
+                <svg class="description-image-svg" width="170px" height="81px" fill="#afb1b8">
                   <use href="./images/iicons.svg#comp-tagline-here"></use>
                 </svg>
               </a>
             </li>
             <li class="clients">
               <a href="#" class="description-image link">
-                <svg class="description-image-svg" width="170px" height="81px">
+                <svg class="description-image-svg" width="170px" height="81px" fill="#afb1b8">
                   <use href="./images/iicons.svg#comp"></use>
                 </svg>
               </a>
             </li>
             <li class="clients">
               <a href="#" class="description-image link">
-                <svg class="description-image-svg" width="170px" height="81px">
+                <svg class="description-image-svg" width="170px" height="81px" fill="#afb1b8">
                   <use href="./images/iicons.svg#foster-peters"></use>
                 </svg>
               </a>
             </li>
             <li class="clients">
               <a href="#" class="description-image link">
-                <svg class="description-image" width="170px" height="81px">
+                <svg class="description-image" width="170px" height="81px" fill="#afb1b8">
                   <use href="./images/iicons.svg#brand"></use>
                 </svg>
               </a>
             </li>
             <li class="clients">
               <a href="#" class="description-image link">
-                <svg class="description-image" width="170px" height="81px">
+                <svg class="description-image" width="170px" height="81px" fill="#afb1b8"> 
                   <use href="./images/iicons.svg#comp-tagline"></use>
                 </svg>
               </a>
@@ -416,7 +420,8 @@
       </section>
       </div>
     </main>
-    <footer class="container" >
+    <footer>
+      <div class="section-container">
       <div class="contact-section">
         <div class="contact-container">
           <a class="nav-link" href="#">WebStudio</a>
@@ -443,39 +448,40 @@
               </ul>
             </address>
         </div>
-        <div class="footer-container">
+        <div class="social-network-container">
           <a class="footer-text">ENCUENTRENOS EN</a>
           <ul class="footer-social-list list footer-text social-network">
             <li class="footer-social-list-item">
               <a href="#" class="footer-social-list-link link">
-                <svg class="footer-social-list-icon" width="20" height="20">
+                <svg class="footer-social-list-icon" width="20" height="20" fill="#afb1b8">
                   <use href="./images/iicons.svg#instagram"></use>
                 </svg>
               </a>
             </li>
             <li class="footer-social-list-item">
               <a href="#" class="footer-social-list-link link">
-                <svg class="footer-social-list-icon" width="20" height="20">
+                <svg class="footer-social-list-icon" width="20" height="20" fill="#afb1b8">
                   <use href="./images/iicons.svg#twitter"></use>
                 </svg>
               </a>
             </li>
             <li class="footer-social-list-item">
               <a href="#" class="footer-social-list-link link">
-                <svg class="footer-social-list-icon" width="20" height="20">
+                <svg class="footer-social-list-icon" width="20" height="20" fill="#afb1b8">
                   <use href="./images/iicons.svg#facebook"></use>
                 </svg>
               </a>
             </li>
             <li class="footer-social-list-item">
               <a href="#" class="footer-social-list-link link">
-                <svg class="footer-social-list-icon" width="20" height="20">
+                <svg class="footer-social-list-icon" width="20" height="20" fill="#afb1b8">
                   <use href="./images/iicons.svg#linkedin"></use>
                 </svg>
               </a>
             </li>
           </ul>
         </div>
+      </div>
       </div>
     </footer>
     <script src="./js/modal.js"></script>
